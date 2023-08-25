@@ -22,9 +22,9 @@ For example: `naming-style.md`
 
 ## Binary files
 
-In principle, all status information such as version number, document status and confidentiality level should already be visible from the file names.
+In principle, all status information[^1] such as version number, document status and confidentiality level should already be visible from the file names. The following syntax must be observed:
 
-The following syntax must be observed:
+[^1]: It does not apply to OPLs, logs and reports that are continually updated. These files should be archived regularly. 
 
 ### Date
 
@@ -46,17 +46,11 @@ The following syntax must be observed:
 
 ### Version
 
-- Prefix a [semantic version](https://semver.org/) with a LARGE `V`
+- Prefix a [semantic version](https://semver.org/) with a capital `V`
 
-The above elements shall be grouped together as follows:
-
-`<Date>_<Subject>_<Version><Status>.<File_Extension>`
+The above elements shall be grouped together as follows: `<Date>_<Subject>_<Version><Status>.<File_Extension>`
 
 For example: `20230815_Naming_Style_V0.0.1D.docx`
-
-### Exceptions
-
-- It does not apply to OPLs, logs and reports that are continually updated. These files should be archived regularly.
 
 ## Learn more
 
